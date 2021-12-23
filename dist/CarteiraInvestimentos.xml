@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CarteiraInvestimentos</name>
+    </assembly>
+    <members>
+        <member name="M:CarteiraInvestimentos.Controllers.AcaoController.Get(CarteiraInvestimentos.Data.DataContext)">
+            <summary>
+            Pesquisa as ações
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.AcaoController.GetById(CarteiraInvestimentos.Data.DataContext,System.Int32)">
+            <summary>
+            Pesquisa uma ação especifica
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.AcaoController.Post(CarteiraInvestimentos.Data.DataContext,CarteiraInvestimentos.Models.Acao)">
+            <summary>
+            Cria uma ação
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.AcaoController.Put(CarteiraInvestimentos.Data.DataContext,CarteiraInvestimentos.Models.Acao,System.Int32)">
+            <summary>
+            Atualiza uma ação
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.AcaoController.Delete(CarteiraInvestimentos.Data.DataContext,System.Int32)">
+            <summary>
+            Deleta uma ação
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.CotacaoAcaoController.GetCotacaoYahooFinance(System.String)">
+            <summary>
+            Pesquisa cotação da ação no Yahoo Finance. Exemplo código ação: BOVA11.SA, VALE3.SA, PETR4.SA...
+            </summary>    
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.OperacaoController.GetOperacoes(CarteiraInvestimentos.Data.DataContext)">
+            <summary>
+            Pesquisa as Operações
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.OperacaoController.GetOperacaoByCodigoAcao(CarteiraInvestimentos.Data.DataContext,System.String)">
+            <summary>
+            Relatório das operação de uma ação
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.OperacaoController.PostOperacaoCompra(CarteiraInvestimentos.Data.DataContext,CarteiraInvestimentos.Models.Operacao)">
+            <summary>
+            Registro de compra de uma ação - Tipo operação C
+            </summary>
+        </member>
+        <member name="M:CarteiraInvestimentos.Controllers.OperacaoController.PostOperacaoVenda(CarteiraInvestimentos.Data.DataContext,CarteiraInvestimentos.Models.Operacao)">
+            <summary>
+            Registro de venda de uma ação - Tipo operação V
+            </summary>
+        </member>
+    </members>
+</doc>
